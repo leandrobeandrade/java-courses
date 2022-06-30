@@ -1,8 +1,8 @@
 # Para ignorar todos arquivos e sub-pastas localizados na pasta metadata/plugins/
-metadata/plugins/
+.metadata/plugins/
 
 # Para ignorar todos os arquivos e sub-pastas da pasta metadata/
-metadata/
+.metadata/
 
 # java-courses-basics
 java-courses-basics/.metadata
