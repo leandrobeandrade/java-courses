@@ -3,3 +3,6 @@ metadata/plugins/
 
 # Para ignorar todos os arquivos e sub-pastas da pasta metadata/
 metadata/
+
+# java-courses-basics
+java-courses-basics/.metadata
