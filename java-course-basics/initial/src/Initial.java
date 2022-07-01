@@ -68,7 +68,7 @@ public class Initial {
 //		valHr = scan.nextDouble();
 //		salario = horas * valHr;
 //		  
-//		System.out.printf("N�mero: %d salário: %.2f", num, salario);
+//		System.out.printf("Número: %d salário: %.2f", num, salario);
 //		  
 //		scan.close();
 		
