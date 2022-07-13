@@ -6,7 +6,7 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 
 - Domínio de Programação Orientada a Objetos e linguagem Java
 - Criação de soluções flexíveis, extensíveis e testáveis
-- Compreensão da base sólida teórica e prática para ser um desenvolvedor Java de sucesso
+- Compreensão da base sólida teórica e prática
 - Aplicação do conhecimento de orientação a objetos na construção de soluções para problemas reais
 - Compreensão de diagramas de classe UML, tanto de entidades quanto de serviços
 - Desenvolvimento de aplicações para desktop com interface gráfica
