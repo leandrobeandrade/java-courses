@@ -23,7 +23,7 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 - Classes, atributos e métodos
 - Construtores, sobrecarga, encapsulamento
 - Estruturas de dados: arrays e coleções
-- Git / Github para versionamento
+- Git/Github para versionamento
 
 ### Intermediário/Avançado
 
@@ -31,7 +31,8 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 - Herança, polimorfismo, interfaces
 - Tratamento de exceções
 - Generics
-- Programação funcional e expressões lambda, Stream API
+- Programação funcional e expressões lambda
+- Stream API
 - Manipulação de arquivos
 
 ### Prático
@@ -39,7 +40,7 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 - JDBC - acesso a dados baseado em SQL
 - JavaFX - interface gráfica
 - Spring Boot - principal framework Java para desenvolvimento comercial
-- JPA / Hibernate - acesso a dados com mapeamento objeto-relacional (ORM)
+- JPA/Hibernate - acesso a dados com mapeamento objeto-relacional (ORM)
 - Maven - gerenciamento de dependências de projeto
 - Spring Data JPA - framework para acesso a dados ORM
 - Spring Data MongoDB - framework para acesso a dados NoSQL ao banco MongoDB
