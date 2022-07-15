@@ -77,7 +77,7 @@ public class Post {
 		sb.append(" Likes - ");
 		sb.append(sdf.format(moment) + "\n");
 		sb.append(content + "\n");
-		sb.append("Comments:\n");
+		sb.append("Comentários:\n");
 		for (Comment c : comments) {
 			sb.append(c.getText() + "\n");
 		}
