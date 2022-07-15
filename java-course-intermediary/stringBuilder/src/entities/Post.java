@@ -9,28 +9,20 @@ public class Post {
 
 	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-	private Date moment;
 	private String title;
 	private String content;
 	private Integer likes;
+	private Date moment;
 
 	private List<Comment> comments = new ArrayList<>();
 
 	public Post() {
 	}
 
-	public Post(Date moment, String title, String content, Integer likes) {
-		this.moment = moment;
+	public Post(String title, String content, Integer likes, Date moment) {
 		this.title = title;
 		this.content = content;
 		this.likes = likes;
-	}
-
-	public Date getMoment() {
-		return moment;
-	}
-
-	public void setMoment(Date moment) {
 		this.moment = moment;
 	}
 
@@ -57,6 +49,14 @@ public class Post {
 	public void setLikes(Integer likes) {
 		this.likes = likes;
 	}
+	
+	public Date getMoment() {
+		return moment;
+	}
+
+	public void setMoment(Date moment) {
+		this.moment = moment;
+	}
 
 	public List<Comment> getComments() {
 		return comments;
@@ -73,11 +73,12 @@ public class Post {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(title + "\n");
+		sb.append(content + "\n");
 		sb.append(likes);
 		sb.append(" Likes - ");
 		sb.append(sdf.format(moment) + "\n");
-		sb.append(content + "\n");
 		sb.append("Comentários:\n");
+		sb.append("------------ \n");
 		for (Comment c : comments) {
 			sb.append(c.getText() + "\n");
 		}

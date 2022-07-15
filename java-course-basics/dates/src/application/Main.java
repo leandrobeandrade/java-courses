@@ -1,10 +1,12 @@
 package application;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 import java.util.TimeZone;
 
 public class Main {
@@ -76,6 +78,12 @@ public class Main {
 		System.out.println("Day of Week: " + weekDay);
 		System.out.println("Month: " + month);
 		System.out.println("Year: " + year);
+		System.out.println("-------------");
+		
+		Date data =  new Date();
+		Locale local = new Locale("pt","BR");
+		DateFormat formato = new SimpleDateFormat("dd 'de' MMMM 'de' yyyy",local);
+		System.out.println(formato.format(data));
 	}
 
 }
