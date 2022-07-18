@@ -25,11 +25,18 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 - Estruturas de dados: arrays e coleções
 - Git/Github para versionamento
 
-### Intermediário/Avançado
+### Intermediário
 
-- Enumerações, composição
-- Herança, polimorfismo, interfaces
+- Enumerações
+- Composição
+- Herança
+- Polimorfismo
+- Classes abstratas
 - Tratamento de exceções
+
+### Avançado
+
+- Inetrfaces
 - Generics
 - Programação funcional e expressões lambda
 - Stream API

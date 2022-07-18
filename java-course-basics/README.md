@@ -1,6 +1,6 @@
-# Java conceitos iniciais
+# Java - conceitos iniciais
 
-Conceitos inicicias da linguagem de programação Java.
+Conceitos inicias da linguagem de programação Java. O aprendizado se dá pela seguinte ordem:
 
 - Tipos de dados
 - Estruturas de dados (Condicional, Sequencial, Repetitivas)
