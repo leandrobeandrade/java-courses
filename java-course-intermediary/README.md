@@ -4,7 +4,7 @@ Conceitos intermediários da linguagem de programação Java. O aprendizado se d
 
 - Enumeração
 - Composição
-- Herança
+- Herança e Casting
 - Polimorfismo
 - Classes abstratas
 - Tratamento de exceções

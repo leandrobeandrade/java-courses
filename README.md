@@ -36,7 +36,7 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 
 ### Avançado
 
-- Inetrfaces
+- Interfaces
 - Generics
 - Programação funcional e expressões lambda
 - Stream API
