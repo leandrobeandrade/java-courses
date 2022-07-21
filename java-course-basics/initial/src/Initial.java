@@ -5,7 +5,7 @@ public class Initial {
 
 	public static void main(String[] args) {
 		// ENTRADAS
-		
+
 //		int num1 = 5; 
 //		int num2 = 4; 
 //		double num3 = 10.12345; 
@@ -29,10 +29,10 @@ public class Initial {
 //		System.out.println("A idade é " + idade);
 //		 
 //		scan.close();
-				
+
 		// EXERCÍCIOS => RAIO
-		
-//		Locale.setDefault(Locale.US);
+
+		Locale.setDefault(Locale.US);
 //		double pi = 3.14159; 
 //		Scanner scan = new Scanner(System.in); 
 //		double raio = scan.nextDouble(); 
@@ -41,9 +41,9 @@ public class Initial {
 //		System.out.printf("Area = %.4f%n", area);
 //		 
 //		scan.close();
-		
+
 		// EXERCÍCIOS => DIFERENCIAL
-		
+
 //		int a, b, c, d, difer; 
 //		Scanner scan = new Scanner(System.in);
 //		  
@@ -57,24 +57,24 @@ public class Initial {
 //		System.out.println("Diferença " + difer);
 //		
 //		scan.close();
-		
+
 		// EXERCÍCIOS => TRABALHO
-		
-		int num, horas; 
-		double valHr, salario; 
+
+		int num, horas;
+		double valHr, salario;
 		Scanner scan = new Scanner(System.in);
-		  
-		num = scan.nextInt(); 
-		horas = scan.nextInt(); 
+
+		num = scan.nextInt();
+		horas = scan.nextInt();
 		valHr = scan.nextDouble();
 		salario = horas * valHr;
-		  
+
 		System.out.printf("Número: %d salário: %.2f", num, salario);
-		  
+
 		scan.close();
-		
+
 		// EXERCÍCIOS => PRODUTOS
-		
+
 //		int code1, code2, qtd1, qtd2;
 //		double preco1, preco2, valTl;
 //		Scanner scan = new Scanner(System.in);
@@ -95,9 +95,9 @@ public class Initial {
 //		System.out.printf("Valor Total: R$%.2f", valTl);
 //		
 //		scan.close();
-		
+
 		// EXERCÍCIOS => ÁREAS
-		
+
 //		Locale.setDefault(Locale.US);
 //		Scanner scan = new Scanner(System.in);
 //		double a, b , c;
@@ -116,7 +116,7 @@ public class Initial {
 //		System.out.printf("retângulo: %.3f \n", a * b);
 //		
 //		scan.close();
-		
+
 	}
 
 }

@@ -79,25 +79,24 @@ public class Main {
 			double salary = scan.nextDouble();
 			list.add(new Employee(id, name, salary));
 		}
-		
+
 		System.out.println();
 		System.out.print("Digite o id do funcionário que será acrescido o salário: ");
 		int id = scan.nextInt();
-		
-		Employee emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null); 	// Verifica se existe o id informado
-		
+
+		Employee emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null); // Verifica se existe o id informado
+
 		if (emp == null) {
 			System.out.println("O id informado não existe!");
-		}
-		else {
+		} else {
 			System.out.print("Digite a porcentagem: ");
 			double percentage = scan.nextDouble();
 			emp.increaseSalary(percentage);
 		}
-		
+
 		System.out.println();
 		System.out.println("Lista de funcionários:");
-		
+
 		for (Employee obj : list) {
 			System.out.println(obj);
 		}

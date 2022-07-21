@@ -48,8 +48,10 @@ public class Main {
 		for (int i = 0; i < mtx.length; i++) {
 			for (int j = 0; j < mtx[i].length; j++) {
 				System.out.println("Matriz: " + mtx[i][j]);
+
 				if (mtx[i][j] == x) {
 					System.out.println("Posição " + i + "," + j + ":");
+
 					if (j > 0) {
 						System.out.println("Esquerda: " + mtx[i][j - 1]);
 					}
