@@ -24,29 +24,28 @@ public class Main {
 			System.out.print("Digite o valor do depósito inicial: ");
 			double initialDeposit = scan.nextDouble();
 			account = new Account(number, holder, initialDeposit);
-		}
-		else {
+		} else {
 			account = new Account(number, holder);
 		}
-		
+
 		System.out.println();
 		System.out.println("Resumo");
 		System.out.println(account);
-		
+
 		System.out.println();
 		System.out.print("Digite um valor de depósito: ");
 		double depositValue = scan.nextDouble();
 		account.deposit(depositValue);
 		System.out.println("Resumo");
 		System.out.println(account);
-		
+
 		System.out.println();
 		System.out.print("Digite um valor para saque: ");
 		double withdrawValue = scan.nextDouble();
 		account.withdraw(withdrawValue);
 		System.out.println("Resumo");
 		System.out.println(account);
-		
+
 		scan.close();
 	}
 }
