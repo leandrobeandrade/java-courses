@@ -38,13 +38,6 @@ public class Reservation {
 		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
 	}
 
-	// SOLUÇÃO MUITO RUIM
-	/*
-	 * public void updateDates(Date checkin, Date checkout) { this.checkin =
-	 * checkin; this.checkout = checkout; }
-	 */
-
-	//  SOLUÇÃO RUIM
 	public String updateDates(Date checkIn, Date checkOut) {
 		Date now = new Date();
 		if (checkIn.before(now) || checkOut.before(now)) {
@@ -56,7 +49,7 @@ public class Reservation {
 
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;
-		return null;	// Não retornou nenhum erro 
+		return null;					// Se NÃO retornou nenhum erro 
 	}
 
 	@Override
