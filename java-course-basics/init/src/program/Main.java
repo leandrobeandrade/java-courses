@@ -1,7 +1,9 @@
+package program;
+
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Initial {
+public class Main {
 
 	public static void main(String[] args) {
 		// ENTRADAS
@@ -26,11 +28,11 @@ public class Initial {
 //		 
 //		int idade; 
 //		idade = scan.nextInt(); 
-//		System.out.println("A idade √© " + idade);
+//		System.out.println("A idade È " + idade);
 //		 
 //		scan.close();
 
-		// EXERC√çCIOS => RAIO
+		// EXERCÕCIOS => RAIO
 
 		Locale.setDefault(Locale.US);
 //		double pi = 3.14159; 
@@ -42,7 +44,7 @@ public class Initial {
 //		 
 //		scan.close();
 
-		// EXERC√çCIOS => DIFERENCIAL
+		// EXERCÕCIOS => DIFERENCIAL
 
 //		int a, b, c, d, difer; 
 //		Scanner scan = new Scanner(System.in);
@@ -54,11 +56,11 @@ public class Initial {
 //		  
 //		difer = a * b - c * d;
 //		  
-//		System.out.println("Diferen√ßa " + difer);
+//		System.out.println("DiferenÁa " + difer);
 //		
 //		scan.close();
 
-		// EXERC√çCIOS => TRABALHO
+		// EXERCÕCIOS => TRABALHO
 
 		int num, horas;
 		double valHr, salario;
@@ -69,17 +71,17 @@ public class Initial {
 		valHr = scan.nextDouble();
 		salario = horas * valHr;
 
-		System.out.printf("N√∫mero: %d sal√°rio: %.2f", num, salario);
+		System.out.printf("N˙mero: %d sal·rio: %.2f", num, salario);
 
 		scan.close();
 
-		// EXERC√çCIOS => PRODUTOS
+		// EXERCÕCIOS => PRODUTOS
 
 //		int code1, code2, qtd1, qtd2;
 //		double preco1, preco2, valTl;
 //		Scanner scan = new Scanner(System.in);
 //		
-//		System.out.println("Entre com os valores: c√≥digo, quantidade e pre√ßo:");
+//		System.out.println("Entre com os valores: cÛdigo, quantidade e preÁo:");
 //		
 //		code1 = scan.nextInt();
 //		qtd1 = scan.nextInt();
@@ -91,29 +93,29 @@ public class Initial {
 //		
 //		valTl = qtd1 * preco1 + qtd2 * preco2;
 //		
-//		System.out.println("Com os c√≥digos: " + code1 + " e " + code2);
+//		System.out.println("Com os cÛdigos: " + code1 + " e " + code2);
 //		System.out.printf("Valor Total: R$%.2f", valTl);
 //		
 //		scan.close();
 
-		// EXERC√çCIOS => √ÅREAS
+		// EXERCÕCIOS => ¡REAS
 
 //		Locale.setDefault(Locale.US);
 //		Scanner scan = new Scanner(System.in);
 //		double a, b , c;
 //		
-//		System.out.println("Entre com 3 valores para calcular as √°reas das formas:");
+//		System.out.println("Entre com 3 valores para calcular as ·reas das formas:");
 //		
 //		a = scan.nextDouble();
 //		b = scan.nextDouble();
 //		c = scan.nextDouble();
 //		
 //		System.out.println("RESULTADOS:");
-//		System.out.printf("tri√¢ngulo: %.3f \n", a * c / 2.0);
-//		System.out.printf("c√≠rculo: %.3f \n", 3.14159 * c * c);
-//		System.out.printf("trap√©zio: %.3f \n", (a + b) / 2.0 * c);
+//		System.out.printf("tri‚ngulo: %.3f \n", a * c / 2.0);
+//		System.out.printf("cÌrculo: %.3f \n", 3.14159 * c * c);
+//		System.out.printf("trapÈzio: %.3f \n", (a + b) / 2.0 * c);
 //		System.out.printf("quadrado: %.3f \n", b * b);
-//		System.out.printf("ret√¢ngulo: %.3f \n", a * b);
+//		System.out.printf("ret‚ngulo: %.3f \n", a * b);
 //		
 //		scan.close();
 
