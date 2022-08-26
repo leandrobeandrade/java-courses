@@ -2,9 +2,9 @@ package application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 import entities.Product;
-import util.ProductPredicate;
 
 public class Main {
 
@@ -16,23 +16,21 @@ public class Main {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 
-		double min = 100.0;
-
 		// USANDO INTERFACE
-		/* list.removeIf(new ProductPredicate()); */
-		
-		// USANDO LAMBDA
-		list.removeIf(p -> p.getPrice() >= min);
+		/* list.forEach(new PriceUpdate()); */
 		
 		// USANDO REFERENCE METHODS - ESTÁTICO
-		/* list.removeIf(Product::staticProductPredicate); */
+		/* list.forEach(Product::staticPriceUpdate); */
 		
 		// USANDO REFERENCE METHODS - NÃO ESTÁTICO
-		/* list.removeIf(Product::nonStaticProductPredicate); */
-
-		for (Product p : list) {
-			System.out.println(p);
-		}
+		/* list.forEach(Product::nonStaticPriceUpdate); */
+		
+		// USANDO LAMBDA
+		Consumer<Product> cons = p -> p.setPrice(p.getPrice() * 1.1);
+		
+		list.forEach(cons);
+		
+		list.forEach(System.out::println);
 	}
 
 }

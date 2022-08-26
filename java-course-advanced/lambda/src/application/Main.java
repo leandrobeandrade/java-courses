@@ -16,7 +16,7 @@ public class Main {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 
-		// USANDO A CLASSE
+		// USANDO A INTERFACE
 		/* list.sort(new MyComparator()); */
 
 		// USANDO CLASSE ANÔNIMA
