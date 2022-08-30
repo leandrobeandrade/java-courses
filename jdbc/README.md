@@ -1,10 +1,7 @@
-# Java - conceitos intermediários
+# Java - JDBC
 
-Conceitos intermediários da linguagem de programação Java. O aprendizado se dá pela seguinte ordem:
+Acesso a Banco de dados (MySQL) através da bilioteca **`JDBC`**.
 
-- Enumeração
-- Composição
-- Herança e Casting
-- Polimorfismo
-- Classes abstratas
-- Tratamento de exceções
+- Recursos teóricos e práticos
+- Arquitetura de projeto JDBC
+- Padrão DAO manual com JDBC
