@@ -26,8 +26,8 @@ public class Main {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
-			DB.closeStatement(st);
 			DB.closeResultSet(rs);
+			DB.closeStatement(st);
 			DB.closeConnection();
 		}
 	}
