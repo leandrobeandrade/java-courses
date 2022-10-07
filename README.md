@@ -44,11 +44,11 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 
 ### Prático
 
-- JDBC - acesso a dados baseado em SQL
 - JavaFX - interface gráfica
-- Spring Boot - principal framework Java para desenvolvimento comercial
+- JDBC - acesso a dados baseado em SQL
 - JPA/Hibernate - acesso a dados com mapeamento objeto-relacional (ORM)
 - Maven - gerenciamento de dependências de projeto
+- Spring Boot - principal framework Java para desenvolvimento comercial
 - Spring Data JPA - framework para acesso a dados ORM
 - Spring Data MongoDB - framework para acesso a dados NoSQL ao banco MongoDB
 
