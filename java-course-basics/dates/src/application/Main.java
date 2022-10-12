@@ -1,12 +1,17 @@
 package application;
 
+import java.text.ParseException;
+
 import dates.SDFormat;
 
 public class Main {
 
 	public static void main(String[] args) {
-		SDFormat sdf = new SDFormat();
-		System.out.println(sdf);
+		try {
+			SDFormat.ExecsSDF();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
 	}
 
 }
