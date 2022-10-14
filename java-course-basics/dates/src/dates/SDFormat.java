@@ -24,6 +24,9 @@ public class SDFormat {
 		Date y1 = sdf1.parse("25/06/2018");
 		Date y2 = sdf2.parse("25/06/2018 15:42:07");
 		Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+		
+		System.out.println("\n################");
+		System.out.println("SimpleDateFormat\n");
 
 		System.out.println("x1: " + x1);
 		System.out.println("x2: " + x2);

@@ -34,6 +34,7 @@ public class Instantiation {
 		LocalDate d10 = LocalDate.of(2022, 07, 20);
 		LocalDateTime d11 = LocalDateTime.of(2022, 7, 20, 01, 30);
 		
+		System.out.println("#############");
 		System.out.println("Instantiation\n");
 		
 		System.out.println("d01 - (Data local) => " + d01.toString());
