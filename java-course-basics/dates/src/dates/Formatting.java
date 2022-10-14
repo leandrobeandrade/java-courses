@@ -20,8 +20,8 @@ public class Formatting {
 		DateTimeFormatter fmt4 = DateTimeFormatter.ISO_DATE_TIME;
 		DateTimeFormatter fmt5 = DateTimeFormatter.ISO_INSTANT;
 		
-		System.out.println("\n######");
-		System.out.println("Others\n");
+		System.out.println("\n##########");
+		System.out.println("Formatting\n");
 		
 		System.out.println("d01 = " + d01.format(fmt1));
 		System.out.println("d01 = " + fmt1.format(d01));
