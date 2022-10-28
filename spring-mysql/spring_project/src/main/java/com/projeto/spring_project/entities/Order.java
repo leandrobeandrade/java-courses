@@ -82,6 +82,10 @@ public class Order implements Serializable {
 		if (orderStatus != null)
 			this.orderStatus = orderStatus.getCode();
 	}
+	
+	public Set<OrderItem> getItems() {
+		return items;
+	}
 
 	@Override
 	public int hashCode() {
