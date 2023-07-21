@@ -55,3 +55,15 @@ Repositório responsável por armazenar códigos referentes ao curso realizado n
 ## Autor: [Nélio Alves](https://github.com/acenelio)
 
 ![java-logo](https://user-images.githubusercontent.com/24658433/177206628-02947c1c-cb21-4aed-abc4-b779fbbc158d.png)
+
+## Configurações Scene Builder
+
+- local - C:\Users\leand\AppData\Local\SceneBuilder\
+- e(fx)clipse - https://download.eclipse.org/efxclipse/updates-released/3.8.0/site/
+- VM arguments - --module-path C:\Java-libs\javafx-sdk-19\lib --add-modules=javafx.fxml,javafx.controls,javafx.graphics
+
+## STS - atalhos
+
+- alt + setas => move o conteúdo da linha para direção apontadada
+- ctrl + alt + setas => duplica a linha para a direção apontada
+- ctrl + d => remove a linha
